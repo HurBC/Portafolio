@@ -1,0 +1,48 @@
+*
+{
+    background-color: #3b80a5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+    background-color: #81afc7;
+    width: 270px;
+    border-radius: 5px;
+}
+#a{
+    background-color: #3f6980;
+    height: 170px;
+    width: 170px;
+    border-radius: 5px;
+}
+#logo
+{
+    position: absolute;
+    left: 18px;
+    top: 90px;
+}
+h3
+{
+    font-family: 'Gill Sans MT'
+}table {
+    width: 600px;
+    border: 1px solid #3f6980;
+    background: #313980;
+}
+th, td {
+    width: 8px;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid rgb(0, 0, 0);
+    border-spacing: 0;
+    background-color: #7c93f8cb;
+}
+textarea
+{
+    background-color: #8ea8ce;
+}
+label
+{
+    font-family: Arial;
+    color: #000000;
+}
