@@ -5,10 +5,11 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Franco Carrasco</h1>
+        <h1>BruHC</h1>
         <div id="a">
             <img id="logo" src="img/Tu_mamita.jpg" alt="My first Website's logo" height="150" width="150">
         </div>
+        <br>
         <div class="logos">
             <img id="gitlogo" src="img/25231.png" alt="git logo" height="40" width="40">
             <a href="">my github</a>
@@ -18,7 +19,7 @@
             <a href="">my email</a>
         </div>
         <h2>Technologies</h2>
-        <div>
+        <div class="table">
             <table>
                 <tr>
                     <td>Front-End</td>
@@ -53,24 +54,27 @@
         Social Snakes
         <br>
         <img id="amogus" src="img/amogus.jpg" alt="amogus" height="150" width="150">
-        <div>
-        <p>Social Media App made in Python - <a href="">code</a>|<a href="">deployed</a></p>
+        <div class="Social">
+            <p>Social Media App made in Python - <a href="">code</a>|<a href="">deployed</a></p>
         </div>
-        <br>
-        Contact Me
-        <div>
-            <label>Name: </label>
-            <input type="text" name="name">
-        </div>
-        <div>
-            <label>Email: </label>
-            <input type="text" name="email">
-        </div>
-        <div>
-            <label>Message: </label>
+        <footer>
+            <h1>Contact Me</h1>
+            <div class="inputBox">
+                <input type="text" required="required">
+                <span>Name</span>
+            </div>
             <br>
-            <textarea name="coment" cols="30" rows="5"></textarea>
-        </div>
-            <input id="buttom" type="submit" value="Send Message">
+            <div class="inputBox">
+                <input type="text" required="required">
+                <span>Email</span>
+            </div>
+            <br>
+            <div class="inputBox">
+                <span>Message</span>
+                <br>
+                <textarea name="coment" cols="33" rows="5"></textarea>
+            </div>
+            <input type="submit" value="Send" class="send">
+        </footer>
     </body>
 </html>
