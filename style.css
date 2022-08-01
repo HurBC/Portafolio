@@ -1,127 +1,109 @@
 *
 {
-    font-family: pixBob;
     margin: 0;
     padding: 0;
-    background-image: url(img/5f028b767bc361ba3ce4796dc521f35b.png);
-    box-sizing: border-box;
 }
+
+body
+{
+    background-image: url(img/sistema-solar-ilustracion_3840x2160_xtrafondos.com.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+
+header
+{
+    height: 70px;
+    background-color: #22142b;
+    color: #4a2b50;
+}
+
 @font-face
 {
-    font-family: pixel-charas;
-    src: url(fonts/PixelCharas.ttf);
-}
-@font-face
-{
-    font-family: pixBob;
+    font-family: PixBob;
     src: url(fonts/PixBob-Lite\ Free.ttf);
 }
+
+@font-face
+{
+    font-family: RachelBrown;
+    src: url(fonts/RachelBrown.ttf);
+}
+
+.a
+{
+    float: right;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+    font-family: PixBob;
+}
+
+#Inicio
+{
+    float: right;
+    width: 60%;
+    height: auto;
+    backdrop-filter: blur(2px);
+    border-radius: 4px;
+    background-color: #241e7423;
+}
+
 #a
 {
-    width: 160px;
+    height: 10000px;
 }
-.logos
+
+.html
 {
-    background: transparent;
-    width: 400px;
+    align-self: auto;
 }
-a
+
+.css
 {
-    background: transparent;
+    align-self: center;
 }
-h2, h1
+
+.JS
 {
-    background: transparent;
+    align-self: auto;
 }
-.table
+
+.container-2
 {
-    background: transparent;
-}
-table 
-{
-    border-collapse: separate;
-    border-spacing: 2px;
-    background: rgba(0, 0, 0, 0.39);
-    color: #fff;
-}
-tbody
-{
-    background: rgba(0, 0, 0, 0.39);
-}
-td, th 
-{
-    background: transparent;
-    color: #000;
-}
-.Social
-{
-    background: #000;
-}
-footer
-{
-    background:  #1d2b3a;
-}
-.inputBox
-{
-    position: relative;
-    width: 250px;
-    background: transparent;
-    left: 200px;
-}
-.inputBox input
-{
-    width: 100%;
-    padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    background: #1d2b3a;
-    border-radius: 5px;
-    outline: none;
-    color: #fff;
-    font-size: 1em;
-    transition: 0.5s;
-}
-.inputBox span
-{
-    position: absolute;
-    left: 0;
-    padding: 10px;
-    pointer-events: none;
-    font-size: 1em;
-    color: rgba(255, 255, 255, 0.25);
-    text-transform: uppercase;
-    background: transparent;
-    transition: 0.5s;
-}
-.inputBox input:valid ~ span,
-.inputBox input:focus ~ span
-{
-    color: #00dfc4;
-    transform: translateX(10px) translateY(-3px);
-    font-size: 0.65em;
+    margin-top: auto;
+    margin-left: auto;
     padding: 0;
-    background:  #1d2b3a;
-    border-left: 1px solid #00dfc4;
-    border-right: 1px solid #00dfc4;
-    letter-spacing: 0.2em;
+    text-align: center;
+    color: #d1cedf;
+    font-family: sans-serif;
 }
-.inputBox:nth-child(2) input:valid ~ span,
-.inputBox:nth-child(2) input:focus ~ span
+
+ul 
 {
-    background: #00dfc4;
-    color: #1d2b3a;
-    border-radius: 2px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3760b2;
 }
-.inputBox input:valid,
-.inputBox input:focus
+
+li 
 {
-    border: 1px solid #00dfc4;
+    float: left;
 }
-.send
+
+li a
 {
-    position: relative;
-    background: #00dfc4;
-    left: 200px;
-    width: 250px;
-    height: 50px;
-    font-size: 50px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #2d2ba1;
 }

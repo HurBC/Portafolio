@@ -1,80 +1,61 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>Portafolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>BruHC</h1>
-        <div id="a">
-            <img id="logo" src="img/Tu_mamita.jpg" alt="My first Website's logo" height="150" width="150">
-        </div>
-        <br>
-        <div class="logos">
-            <img id="gitlogo" src="img/25231.png" alt="git logo" height="40" width="40">
-            <a href="">my github</a>
-            <img id="linkedinlogo" src="img/linkedin_black_logo_icon_147114.png" alt="linkedin logo" height="40" width="40">
-            <a href="">my linkedin</a>
-            <img id="emaillogo" src="img/Email-Logo-PNG-HD-Quality.png" alt="email logo" height="40" width="40">
-            <a href="">my email</a>
-        </div>
-        <h2>Technologies</h2>
-        <div class="table">
-            <table>
-                <tr>
-                    <td>Front-End</td>
-                    <td>Python</td>
-                    <td>JavaScript</td>
-                    <td>Database</td>
-                    <td>Concepts</td>
-                </tr>
-                <tr>
-                    <td>HTML5</td>
-                    <td>Django</td>
-                    <td>Express</td>
-                    <td>MySQL</td>
-                    <td>AJAX</td>
-                </tr>
-                <tr>
-                    <td>CSS3</td>
-                    <td>Flask</td>
-                    <td>Mongoose</td>
-                    <td>MongoDB</td>
-                    <td>OOP</td>
-                </tr>
-                <tr>
-                    <td>Bootstrap</td>
-                    <td>Unittest</td>
-                    <td>React</td>
-                    <td></td>
-                    <td>REST</td>     
-                </tr>
-            </table>
-        </div>
-        Social Snakes
-        <br>
-        <img id="amogus" src="img/amogus.jpg" alt="amogus" height="150" width="150">
-        <div class="Social">
-            <p>Social Media App made in Python - <a href="">code</a>|<a href="">deployed</a></p>
-        </div>
-        <footer>
-            <h1>Contact Me</h1>
-            <div class="inputBox">
-                <input type="text" required="required">
-                <span>Name</span>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="img/Tu_mamita.jpg" alt="Franco Carrasco" height="70px" width="70px">
+            <div class="a">
+                <h1>BruHC</h1>
             </div>
+        </div>
+    </header>
+    <nav>
+        <div class="Barra">
+            <ul>
+                <li><a href="#inicio">inicio</a></li>
+                <li><a href="#acerca-de-mi">Acerca de mi</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="Inicio">
+        <div class="container-2">
+            <h1>Acerca de mi</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium ipsum quaerat saepe voluptatum velit distinctio consectetur consequuntur repellat enim fugit? Omnis est modi quis quam debitis eius ipsam provident cumque!</p>
             <br>
-            <div class="inputBox">
-                <input type="text" required="required">
-                <span>Email</span>
+            <div class="Lenguajes">
+                <h2>Lenguajes donde me especializo</h2>
+                <div class="b">
+                    <h3>HTML⠀CSS⠀⠀⠀JS⠀⠀</h3>
+                    <img src="img/732212.png" alt="html" width="60px" height="60px"> <img src="img/732190.png" alt="css" width="60xpx" height="60px"> <img src="img/JavaScript-logo.png" alt="js"width="60px" height="60px">
+                </div>
             </div>
-            <br>
-            <div class="inputBox">
-                <span>Message</span>
-                <br>
-                <textarea name="coment" cols="33" rows="5"></textarea>
-            </div>
-            <input type="submit" value="Send" class="send">
-        </footer>
-    </body>
+        </div>
+    </section>
+    <section id="Mis proyectos">
+        <div class="slider">
+            <ul>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+                <li>
+                    <img src="" alt="">
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
 </html>
