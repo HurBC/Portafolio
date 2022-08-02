@@ -7,9 +7,9 @@
 body
 {
     background-image: url(img/sistema-solar-ilustracion_3840x2160_xtrafondos.com.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: fixed;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
 
 header
@@ -40,70 +40,58 @@ header
     font-family: PixBob;
 }
 
-#Inicio
+#inicio
 {
-    float: right;
     width: 60%;
-    height: auto;
-    backdrop-filter: blur(2px);
-    border-radius: 4px;
-    background-color: #241e7423;
-}
-
-#a
-{
-    height: 10000px;
-}
-
-.html
-{
-    align-self: auto;
-}
-
-.css
-{
-    align-self: center;
-}
-
-.JS
-{
-    align-self: auto;
-}
-
-.container-2
-{
-    margin-top: auto;
+    height: 100%;
+    backdrop-filter: blur(4px);
     margin-left: auto;
-    padding: 0;
+    margin-right: auto;
     text-align: center;
-    color: #d1cedf;
-    font-family: sans-serif;
+    color: rgb(230, 192, 238);
 }
 
-ul 
+.marco
 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #3760b2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    height: 160px;
+    background-color: #75466a;
 }
 
-li 
+.perfil
 {
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-li a
+.Nombre
 {
-    display: block;
-    color: white;
+    font-family: PixBob;
+}
+
+.acerca-de-mi
+{
+    background-color: rgb(13, 11, 31);
+}
+
+a
+{
+    background-color: #D95B0F;
+    position: absolute;
+    left: 1230px;
+    top: 15px;
+    width: 100px;
+    height: 40px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    font-size: large;
+    font-family: PixBob;
+    color: #f8dccb;
 }
-
-li a:hover 
+a:hover
 {
-    background-color: #2d2ba1;
+    background-color: #c2350a;
+    width: 105px;
+    height: 45px;
 }
