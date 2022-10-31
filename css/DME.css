@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: PixBob;
+    overflow: hidden;
+}
+
+@font-face
+{
+    font-family: PixBob;
+    src: url(../fonts/PixBob-Lite\ Free.ttf);
+}
+
+:root
+{
+    --colorUno: #f8dc70;
+    --colorDos: #0e0c2c;
+    --colorTres: #bb402e;
+    --colorCuatrp: #3760b2;
+    --colorCinco: #2596be;
+    --colorSeis: #631c27;
+    --colorSiete: #294682;
+}
+
+body
+{
+    background: url(../img/sistema-solar-ilustracion_3840x2160_xtrafondos.com.jpg) no-repeat;
+    background-size: cover;
+}
+
+header
+{
+    width: 100%;
+    height: 15vh;
+    color: #fff;
+    font-size: 100%;
+}
+
+nav
+{
+    width: 60%;
+    height: 100%;
+}
+
+ul
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li
+{
+    padding: 0 1vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background .5s, color .5s, padding .5s;
+}
+
+li:hover
+{
+    padding: 0 5vh;
+    background-color: #fff;
+    color: #000;
+}
+
+a
+{
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-H
+{
+    padding: 0 1%;
+    width: 100%;
+    height: 50%;
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .5s;
+}
+
+.container-H:hover
+{
+    height: 80%;
+    font-size: 200%;
+    background-color: #000;
+    border-bottom: 5vh solid #fff;
+}
+
+.container-H h1
+{
+    cursor: pointer;
+}
+
+.container-H h1:hover{
+    background: url(../img/sistema-solar-ilustracion_3840x2160_xtrafondos.com.jpg);
+    background-size: 700%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-N
+{
+    width: 100%;
+    height: 100%;
+}
+
+.btn
+{
+    margin-bottom: 1vh;
+    width: 20vh;
+    height: 10vh;
+    font-size: 160%;
+}
